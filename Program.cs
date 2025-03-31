@@ -10,6 +10,9 @@ namespace Taller2DJP251
     {
         static void Main(string[] args)
         {
+            Menu menu = new Menu();
+            menu.Execute();
+
             /*
             float a;
             float b;
@@ -90,7 +93,7 @@ namespace Taller2DJP251
                 Console.WriteLine($"{a} es cero");
             }
             */
-
+            /*
             int a;
 
             Console.WriteLine("Introduce el número");
@@ -111,7 +114,7 @@ namespace Taller2DJP251
             {
                 Console.WriteLine($"{a} no es divisible ni entre 7 ni entre 13");
             }
-
+            */
 
 
 
