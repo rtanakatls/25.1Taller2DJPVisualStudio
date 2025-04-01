@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Taller2DJP251.Figures;
 
 namespace Taller2DJP251
 {
@@ -10,7 +11,7 @@ namespace Taller2DJP251
     {
         static void Main(string[] args)
         {
-            Menu menu = new Menu();
+            FigureMenu menu = new FigureMenu();
             menu.Execute();
 
             /*
