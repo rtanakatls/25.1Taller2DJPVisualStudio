@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Taller2DJP251
+namespace Taller2DJP251.Classroom
 {
     internal class Student
     {
@@ -20,6 +20,11 @@ namespace Taller2DJP251
             this.grade1 = grade1;
             this.grade2 = grade2;
             this.grade3 = grade3;
+        }
+
+        public float GetAverage()
+        {
+            return (grade1 + grade2 + 2 * grade3) / 4;
         }
 
         public string GetData()

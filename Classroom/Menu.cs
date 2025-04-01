@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Taller2DJP251
+namespace Taller2DJP251.Classroom
 {
     internal class Menu
     {
