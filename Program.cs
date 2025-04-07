@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Taller2DJP251.Figures;
+using Taller2DJP251.RPG;
 
 namespace Taller2DJP251
 {
@@ -11,7 +12,7 @@ namespace Taller2DJP251
     {
         static void Main(string[] args)
         {
-            FigureMenu menu = new FigureMenu();
+            GameMenu menu = new GameMenu();
             menu.Execute();
 
             /*

@@ -47,10 +47,11 @@
     <Compile Include="Figures\FigureMenu.cs" />
     <Compile Include="Figures\Rectangle.cs" />
     <Compile Include="Figures\Triangle.cs" />
-    <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
+    <Compile Include="RPG\Enemy.cs" />
+    <Compile Include="RPG\GameMenu.cs" />
+    <Compile Include="RPG\Player.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
