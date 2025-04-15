@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Farm\Farm.cs" />
+    <Compile Include="Farm\FarmMenu.cs" />
+    <Compile Include="Farm\Plant.cs" />
     <Compile Include="Figures\Circle.cs" />
     <Compile Include="Figures\FigureMenu.cs" />
     <Compile Include="Figures\Rectangle.cs" />
