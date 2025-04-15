@@ -17,6 +17,9 @@ namespace Taller2DJP251.Farm
 
         private int currentLifeTime;
 
+        public string Name {  get { return name; } }
+        public int SeedPrice { get { return seedPrice; } }
+
         public Plant(string name, int lifeTime, int productionAmount, int seedPrice, int productPrice)
         {
             this.name = name;
@@ -37,5 +40,9 @@ namespace Taller2DJP251.Farm
             return currentLifeTime >= lifeTime;
         }
 
+        public int GetTotalSellMoney()
+        {
+            return productionAmount * productPrice;
+        }
     }
 }
