@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Taller2DJP251.Farm;
 using Taller2DJP251.Figures;
 using Taller2DJP251.RPG;
 
@@ -12,7 +13,7 @@ namespace Taller2DJP251
     {
         static void Main(string[] args)
         {
-            GameMenu menu = new GameMenu();
+            FarmMenu menu = new FarmMenu();
             menu.Execute();
 
             /*
